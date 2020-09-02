@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int espera1 ();
+
+int espera2 ();
+
+int con_suministro ():
+	
+int sin_suministro ();	
+
+
+typedef enum {
+  espera1 = 0,
+  espera2 = 1
+}estado;
+
+
+
+
+
+int main() {
+	
+	estado = espera1;
+	
+ config = inicio();
+    while(1){
+      switch (estado) {
+            case espera1: 
+                         if t==1 {estado = espera1}
+                    
+					         else {estado = sin_suministro
+		                          }		
+		   break;
+		   
+            case espera2: 
+			             if (t==0) {estado = espera2}
+		
+		                      else {estado = con_suministro
+	                             	}
+		
+		   break;
+	
+
+		
+	}
+}
+
+	
+
+
+	return 0;
+}
+
